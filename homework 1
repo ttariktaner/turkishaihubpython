@@ -1,0 +1,14 @@
+numbers1 = [1,5,9,21,99]
+numbers2 = [2,10,26,34,88]
+
+numbers1.extend(numbers2)
+print(numbers1)
+
+squares = []
+
+for i in numbers1:
+    squares.append(i**2)
+print(squares)
+
+for i in squares:
+    print(type(i))
