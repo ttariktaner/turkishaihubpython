@@ -1,0 +1,50 @@
+ozgecmis = {
+    "Tarık Taner": {
+        "age": "23",
+        "the university he graduated from": "Gazi Üniversitesi",
+        "grade average": "2.45",
+        "department he graduated from": "Civil Engineering",
+        "email": "tarik@gmail.com",
+        "address": "istanbul",
+        "phone": "5461632255",
+    },
+    "Ayşe Yılmaz": {
+        "age": "35",
+        "the university he graduated from": "Ankara Üniversitesi",
+        "grade average": "3.00",
+        "department she graduated from": "Law Faculty",
+        "email": "ayseyilmaz@gmail.com",
+        "address": "adana",
+        "phone": "5458654554",
+    },
+    "Mehmet Demir": {
+        "age": "29",
+        "the university he graduated from": "Istanbul Teknik Universitesi",
+        "grade average": "4.00",
+        "department he graduated from": "Machine Engineering",
+        "email": "demirmehmet@gmail.com",
+        "address": "istanbul",
+        "phone": "5361632211",
+    },
+    "Fatma Yıldız": {
+        "age": "23",
+        "the university he graduated from": "9 Eylül Üniversitesi",
+        "grade average": "2.50",
+        "department she graduated from": "Economy",
+        "email": "faatmayldz@icloud.com",
+        "address": "izmir",
+        "phone": "5453315605",
+    },
+    "Baran Kol": {
+        "age": "32",
+        "the university he graduated from": "Harran Üniversitesi",
+        "grade average": "3.17",
+        "department he graduated from": "Education Faculty",
+        "email": "baran@gmail.com",
+        "address": "şanlıurfa",
+        "phone": "5313011789",
+    }
+}
+
+for key, value in ozgecmis.items():
+    print(key, value)
