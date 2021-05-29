@@ -1,0 +1,73 @@
+students = {}
+
+name = input("student name: ")
+midterm = int(input("midterm score: "))
+finalexam = int(input("final score: "))
+project = int(input("project score: "))
+
+
+students.update({
+    name: {
+        "ad": name,
+        "ara sınav": midterm,
+        "final notu": finalexam,
+        "proje notu": project
+    }
+})
+
+name = input("student name: ")
+midterm = int(input("midterm score: "))
+finalexam = int(input("final score: "))
+project = int(input("project score: "))
+
+students.update({
+    name: {
+        "ad": name,
+        "ara sınav": midterm,
+        "final notu": finalexam,
+        "proje notu": project
+    }
+})
+
+name = input("student name: ")
+midterm = int(input("midterm score: "))
+finalexam = int(input("final score: "))
+project = int(input("project score: "))
+
+students.update({
+    name: {
+        "ad": name,
+        "ara sınav": midterm,
+        "final notu": finalexam,
+        "proje notu": project
+    }
+})
+
+name = input("student name: ")
+midterm = int(input("midterm score: "))
+finalexam = int(input("final score: "))
+project = int(input("project score: "))
+
+students.update({
+    name: {
+        "ad": name,
+        "ara sınav": midterm,
+        "final notu": finalexam,
+        "proje notu": project
+    }
+})
+
+name = input("student name: ")
+midterm = int(input("midterm score: "))
+finalexam = int(input("final score: "))
+project = int(input("project score: "))
+ortalamalar = []
+
+for i in students:
+    ort = (students[i]["ara sınav"]*0.3 + students[i]["final notu"]*0.4 + students[i]["proje notu"]*0.3)
+    ortalamalar.append(ort)
+print(ortalamalar)
+
+ortalamalar.sort(reverse=True)
+print(ortalamalar)
+print(students)
